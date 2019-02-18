@@ -1,0 +1,7 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "license": "MIT"
+}
