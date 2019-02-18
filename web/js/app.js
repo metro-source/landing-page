@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
         let form = new FormData(e.target);
         
-        fetch("http://localhost:5000/api/sendmail", {
+        fetch("/api/sendmail", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
